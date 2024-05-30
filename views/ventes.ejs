@@ -1,0 +1,48 @@
+<%- include("partials/header") -%>
+  <!-- Latest Projects-->
+  <section class="section section-sm section-fluid bg-default text-center" id="projects">
+    <div class="container-fluid">
+      <h2 class="wow fadeInLeft">Services de ventes</h2>
+      <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">Nous méttons en ventes des biens dont le/les proprietaire(s) dispose(nt) de l'ensemble des papiers administratif légaux.
+        Avant la publication, on s'assure que les biens concernés ne font pas objet de litiges.</p>
+      <div class="isotope-filters isotope-filters-horizontal">
+        <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true" data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter</button>
+        <ul class="isotope-filters-list" id="isotope-3">
+          <li><a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery">Tous</a></li>
+          <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">Maisons à vendre</a></li>
+          <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">Terrains à vendre</a></li>
+        </ul>
+      </div>
+
+      <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery" data-lightgallery="group">
+        <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1">
+          <!-- Thumbnail Classic-->
+          <article class="thumbnail thumbnail-classic thumbnail-md">
+            <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350"/>
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350"/></a>
+                <h5 class="thumbnail-classic-title"><a href="#">FinStep</a></h5>
+              </div>
+              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2" data-wow-delay=".1s">
+          <!-- Thumbnail Classic-->
+          <article class="thumbnail thumbnail-classic thumbnail-md">
+            <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350"/>
+            </div>
+            <div class="thumbnail-classic-caption">
+              <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350"/></a>
+                <h5 class="thumbnail-classic-title"><a href="#">MPlanner</a></h5>
+              </div>
+              <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+<%- include("partials/footer") -%>
